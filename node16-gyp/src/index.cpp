@@ -6,7 +6,8 @@
 Napi::String greetHello(const Napi::CallbackInfo &info)
 {
     Napi::Env env = info.Env();
-    std::string result = helloUser("Lorry");
+    std::string user = (std::string)info[0].ToString();
+    std::string result = helloUser(user);
     return Napi::String::New(env, result);
 }
 
