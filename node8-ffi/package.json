@@ -4,7 +4,7 @@
     "engines": {
         "node": ">=8.0.0 <12.22.0"
     },
-    "description": "An example server application for the IEC-104 standards",
+    "description": "An example application call .dll",
     "main": "program.js",
     "dependencies": {
         "bindings": "~1.5.0",
@@ -18,7 +18,7 @@
         "start": "node program.js"
     },
     "author": "fungi0",
-    "license": "ISC",
+    "license": "GPL",
     "devDependencies": {
         "prettier": "2.6.0"
     }

@@ -1,0 +1,21 @@
+{
+    "name": "gyp_call",
+    "version": "1.2.3",
+    "engines": {
+        "node": ">=16.14.0 <22.22.0"
+    },
+    "description": "An example application call outside C++ wrapper",
+    "main": "program.js",
+    "dependencies": {
+        "node-gyp": "*",
+        "node-addon-api": "*"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "fungi0",
+    "license": "GPL",
+    "devDependencies": {
+        "prettier": "2.6.0"
+    }
+}
