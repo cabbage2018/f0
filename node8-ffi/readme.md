@@ -1,0 +1,1 @@
+一个介绍ffi 的替代品的说明[ffi 以及 ffi-napi 区别以及对引擎版本的依赖](https://blog.csdn.net/spooking/article/details/126737951)
